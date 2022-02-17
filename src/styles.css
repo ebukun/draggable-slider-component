@@ -3,8 +3,15 @@
   text-align: center;
 }
 
+.App-container {
+  position: relative;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
 .slider {
-  width: 100%;
+  width: 80%;
   height: 120px;
   position: absolute;
   left: 10%;
@@ -18,7 +25,7 @@
   flex-direction: row;
   gap: 20px;
   height: 100%;
-  width: 160%;
+  width: 150%;
   transition: 0s ease-in;
   position: absolute;
   top: 0px;
@@ -27,7 +34,7 @@
 
 .inner-item {
   padding: 3rem;
-  texr-align: center;
+  text-align: center;
   background-color: rebeccapurple;
   color: white;
   font-size: 32px;
